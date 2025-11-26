@@ -1,5 +1,18 @@
+# Ignore clones
+bb-runtimes
+gnat-llvm
+cuda
+gcc
+uwrap
+llvm-ads
+libadalang
+langkit
+
 # Object file
 *.o
 
 # Ada Library Information
 *.ali
+
+# Emacs
+*~

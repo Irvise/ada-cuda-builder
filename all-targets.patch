@@ -1,0 +1,13 @@
+diff --git a/llvm/Makefile b/llvm/Makefile
+index f05c33b0..b82a4c90 100644
+--- a/llvm/Makefile
++++ b/llvm/Makefile
+@@ -11,7 +11,7 @@ DL=wget
+ LLVM_SRC_FNAME=$(LLVM_SRC_DIR).tar.xz
+ LLVM_RELEASE_URL=https://github.com/llvm/llvm-project/releases/download/llvmorg-$(LLVM_RELEASE)
+ LLVM_SRC_LINK=$(LLVM_RELEASE_URL)/$(LLVM_SRC_FNAME)
+-LLVM_TARGETS=X86
++LLVM_TARGETS=all
+ # Linking LLVM libraries and binaries requires lots of RAM and is a common cause
+ # for out-of-memory errors. Restricting the build system to a single link job at
+ # a time doesn't affect the build time significantly but protects us from those

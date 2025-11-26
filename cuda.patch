@@ -1,0 +1,13 @@
+diff --git a/runtime/cuda_sources.py b/runtime/cuda_sources.py
+index 3e9f531..8f53454 100644
+--- a/runtime/cuda_sources.py
++++ b/runtime/cuda_sources.py
+@@ -64,7 +64,7 @@ rts_sources = {
+             "device_gnat/a-nuelfu.ads",
+             "libgnat/a-unccon.ads",
+             "libgnat/ada.ads",
+-            "hie/i-c__hie.ads",
++#            "hie/i-c__hie.ads",
+             "libgnat/i-cexten.ads",
+             "device_gnat/i-cpoint.ads",
+             "device_gnat/i-cpoint.adb",
